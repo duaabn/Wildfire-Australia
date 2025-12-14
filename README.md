@@ -29,22 +29,32 @@ The wildfire dataset includes the following variables:
 
 ## 📊 Part 1: Analyzing the Wildfire Activities in Australia
 
-This part is implemented using **Google Colab** and focuses on data exploration and visualization.
+This part focuses on data analysis and visualization using Pandas, Matplotlib, Seaborn, and Folium.
+The analysis is implemented in a Jupyter Notebook and can be viewed or executed directly using Google Colab.
+
+👉 **Open the notebook in Google Colab:**  
+[Wildfire_Australia.ipynb (Colab)](https://colab.research.google.com/github/duaabn/Wildfire-Australia/blob/main/Wildfire_Australia.ipynb)
 
 ### Tasks Completed
 - Line plot of average estimated fire area over time
 - Monthly analysis of estimated fire area
-- Bar plot of mean estimated fire brightness across regions (Seaborn)
-- Pie chart showing the distribution of fire pixel counts across regions
-- Customized pie chart for better visualization
-- Histogram of mean estimated fire brightness (Matplotlib)
+- Bar plot of mean estimated fire brightness across regions
+- Pie chart showing distribution of fire pixel counts across regions
+- Customized pie chart for improved visualization
+- Histogram of mean estimated fire brightness
 - Distribution of fire brightness across regions using Seaborn with hue
-- Scatter plot showing correlation between:
-  - Mean estimated fire radiative power
-  - Mean confidence level
-- Interactive map of Australia highlighting all seven regions using Folium
+- Scatter plot showing correlation between mean estimated fire radiative power and mean confidence
+- Map visualization of all seven regions in Australia using Folium
 
-### File
-- `Wildfire_Australia.ipynb`
 
-### Open in Google Colab
+## 🖥️ Part 2: Interactive Dashboard (Dash & Plotly)
+
+This part presents an interactive dashboard built using Dash and Plotly.
+The dashboard allows users to select a **Region** and **Year** and dynamically updates the visualizations.
+
+📄 **Dashboard source code:**  
+[dash_wildfire.py](https://github.com/duaabn/Wildfire-Australia/blob/main/dash_wildfire.py)
+
+### Dashboard Visualizations
+- Pie Chart: Monthly Average Estimated Fire Area
+- Bar Chart: Monthly Average Count of Pixels for Presumed Vegetation Fires
