@@ -55,6 +55,10 @@ The dashboard allows users to select a **Region** and **Year** and dynamically u
 📄 **Dashboard source code:**  
 [dash_wildfire.py](https://github.com/duaabn/Wildfire-Australia/blob/main/dash_wildfire.py)
 
+## 📸 Dashboard Preview
+![Dashboard Preview](dash.png)
+
+
 ### Dashboard Visualizations
 - Pie Chart: Monthly Average Estimated Fire Area
 - Bar Chart: Monthly Average Count of Pixels for Presumed Vegetation Fires
