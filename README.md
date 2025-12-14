@@ -58,3 +58,11 @@ The dashboard allows users to select a **Region** and **Year** and dynamically u
 ### Dashboard Visualizations
 - Pie Chart: Monthly Average Estimated Fire Area
 - Bar Chart: Monthly Average Count of Pixels for Presumed Vegetation Fires
+
+
+## ▶️ Run the Dashboard Locally
+
+To run the dashboard locally, execute the following command:
+
+```bash
+python3.8 dash_wildfire.py
