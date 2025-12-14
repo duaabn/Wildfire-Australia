@@ -57,7 +57,7 @@ The dashboard allows users to select a **Region** and **Year** and dynamically u
 
 ## 📸 Dashboard Preview
 ![Dashboard Preview](dash.png)
-
+![Dashboard Preview](newplot(2).png)
 
 ### Dashboard Visualizations
 - Pie Chart: Monthly Average Estimated Fire Area
